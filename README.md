@@ -20,8 +20,8 @@ None yet.
 
 #### SOURCE
 
-Github repository: [https://github.com/kmjax/link_parser](https://github.com/kmjax/link_parser)
+GitHub repository: [https://github.com/kmjax/link-parser](https://github.com/kmjax/link-parser)
 
-Clone from Github via HTTPS:
+Clone from GitHub via HTTPS:
 
-`git clone https://github.com/kmjax/link_parser.git`
+`git clone https://github.com/kmjax/link-parser.git`

@@ -1,0 +1,8 @@
+body {
+  background-color: #abcdff;
+  background-image: url("../images/diag_light_blue_bg.png");
+  background-position: left top;
+  background-repeat: repeat;
+  color: #000044;
+  font-family: "Cousine", monospace;
+}

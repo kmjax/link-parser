@@ -32,19 +32,25 @@
           Enter URL in the textbox bellow and click 'PARSE'.
         </p>
         <p>
+          <div id="url-entry-container">
           <textarea
             name="urlEntry"
             id="url-entry"
             rows="5"
             placeholder="Enter a URL here."
           ></textarea>
+        </div>
         </p>
         <p>
           <button type="submit" id="parse-btn">PARSE</button>
         </p>
         <p>Parsed URL:</p>
         <p id="parsed-url">
-          https://someplace.com/test?thing="hill"&color="red"&count=2112
+          &lt;form action=&quot;https://someplace.com/test&quot;
+          method=&quot;get&quot;&gt;&lt;input name=&quot;thing&quot;
+          value=&quot;hill&quot;&gt;&lt;input name=&quot;color&quot;
+          value=&quot;red&quot;&gt;&lt;input name=&quot;count&quot;
+          value=2112&gt;&lt;/form&gt;
         </p>
       </form>
     </div>

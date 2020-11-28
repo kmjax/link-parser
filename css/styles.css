@@ -9,9 +9,15 @@ body {
   padding: 5px 30px 5px 30px;
 }
 
+#url-entry-container {
+  padding-right: 25px;
+}
+
 #url-entry {
   width: 100%;
   font-size: 18px;
+  border-radius: 10px;
+  padding: 5px 10px;
 }
 
 #parse-btn {
@@ -33,4 +39,11 @@ body {
 #parse-btn:active {
   background-color: #89cdff;
   box-shadow: -1px -1px 5px midnightblue;
+}
+
+#parsed-url {
+  color: #444444;
+  border: 2px solid #444488;
+  padding: 20px 25px;
+  border-radius: 10px;
 }

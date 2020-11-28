@@ -11,10 +11,11 @@ This is a web page form that takes an entered URL and then parses it into the ba
 
 #### STATUS
 
-25% Complete. The web page's user interface with all controls has been created. Most of the required CSS is finished too.
+99% Complete. The Link Parser 3000 web utility is functional. All that remains of this project is to perform some code clean-up and enhance the documentation.
 
 #### Previous Status Updates:
 
+- The web page's user interface with all controls has been created. Most of the required CSS is finished too.
 - Core CSS, HTML, and JS framework completed
 - Project initiated with a README file
 

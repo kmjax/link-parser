@@ -8,11 +8,14 @@
     />
     <meta name="author" content="Kelsey McClanahan" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cousine&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cousine&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="data:," />
-    
+
     <title>Link Parser</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -22,7 +25,29 @@
   -->
 
   <body>
-    <h2>Link Parser 3000</h3>
+    <h2>Link Parser 3000</h2>
+    <div>
+      <form action="#" method="GET" id="parse-form">
+        <p id="instructions">
+          Enter URL in the textbox bellow and click 'PARSE'.
+        </p>
+        <p>
+          <textarea
+            name="urlEntry"
+            id="url-entry"
+            rows="5"
+            placeholder="Enter a URL here."
+          ></textarea>
+        </p>
+        <p>
+          <button type="submit" id="parse-btn">PARSE</button>
+        </p>
+        <p>Parsed URL:</p>
+        <p id="parsed-url">
+          https://someplace.com/test?thing="hill"&color="red"&count=2112
+        </p>
+      </form>
+    </div>
 
     <script src="index.js"></script>
   </body>

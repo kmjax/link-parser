@@ -7,16 +7,16 @@
 
 #### DESCRIPTION
 
-This is a web page form that takes a URL entry and then parses it into the base link and separate query parameters.
-
+This is a web page form that takes an entered URL and then parses it into the base link and separate query parameters.
 
 #### STATUS
 
-1% Complete. The project has been initiated along with this README document.
+25% Complete. The web page's user interface with all controls has been created. Most of the required CSS is finished too.
 
 #### Previous Status Updates:
 
-None yet.
+- Core CSS, HTML, and JS framework completed
+- Project initiated with a README file
 
 #### SOURCE
 

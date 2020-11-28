@@ -5,4 +5,32 @@ body {
   background-repeat: repeat;
   color: #000044;
   font-family: "Cousine", monospace;
+  font-size: 18px;
+  padding: 5px 30px 5px 30px;
+}
+
+#url-entry {
+  width: 100%;
+  font-size: 18px;
+}
+
+#parse-btn {
+  background-color: #bcdeff;
+  font-size: 20px;
+  padding: 4px 20px 4px 20px;
+  border-radius: 7px;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+#parse-btn:hover {
+  background-color: #cdefff;
+  box-shadow: 1px 1px 5px midnightblue;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#parse-btn:active {
+  background-color: #89cdff;
+  box-shadow: -1px -1px 5px midnightblue;
 }
